@@ -1,0 +1,9 @@
+Mettre l'animation en bg possible  ? (sous le texte intro)
+ok je sais pas trop...
+
+Reduire la hauteur max de l'animation (il me manque un élement de compréhension)
+ouais on verra...
+
+Mettre un sous titre sur les projets (mon role) (sur pages projets)
+
+Mettre un descriptif à droite des noms de projets (sur pages projets)
