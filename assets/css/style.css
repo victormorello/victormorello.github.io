@@ -261,6 +261,8 @@ canvas {
 #projects .project-role {
 	font-weight: bold;
     color: rgba(0,0,0,0.7);
+	margin-top: -0.5rem !important;
+
 }
 
 #projects .project-start {
