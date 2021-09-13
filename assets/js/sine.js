@@ -36,7 +36,7 @@ function calcWave() {
   theta += 0.01;
 
   if(mouseIsPressed) {
-    theta +=0.07;
+    theta +=0.12;
   }
   
 
@@ -57,4 +57,5 @@ function renderWave() {
   for (let x = 0; x < yvalues.length; x++) {
     ellipse(dotSize + x * xspacing, height / 2 + yvalues[x], dotSize, dotSize);
   }
+
 }
