@@ -274,10 +274,10 @@ canvas {
 }
 
 #projects .project-image {
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
-#projects .project-video {
+#projects .project-video  {
 	margin-top: 3rem !important;
 }
 
