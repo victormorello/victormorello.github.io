@@ -277,7 +277,7 @@ canvas {
 	margin-top: 3rem;
 }
 
-#projects .project-video  {
+#projects .project-video {
 	margin-top: 3rem !important;
 }
 
@@ -340,7 +340,7 @@ canvas {
 }
 
 #downloads main h2 {
-	text-decoration: underline;
+	/*text-decoration: underline; */
 }
 
 #downloads .container {
