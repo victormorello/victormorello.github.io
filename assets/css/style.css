@@ -258,6 +258,8 @@ canvas {
 	margin-top: 0.5rem;
 }
 
+
+
 #projects .project-content {
 	margin-top: 2rem;
 }
@@ -345,6 +347,13 @@ canvas {
 
 #downloads .container {
 	padding: 0;
+}
+
+#downloads .top-border {
+	border-top-style: groove;
+	border-top-width: 1px;
+	padding-bottom: 1rem;
+	max-width: 50%;
 }
 
 #downloads .container p {
