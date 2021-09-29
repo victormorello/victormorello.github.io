@@ -148,6 +148,9 @@ main {
 	margin-bottom: 10rem;
 }
 
+#home h1 {
+	letter-spacing: 0.04rem;
+}
 
 
 /*
@@ -406,6 +409,10 @@ canvas {
 	padding: 0;
 }
 
+#downloads .mt-3 {
+	margin-top: 2rem!important;
+}
+
 #downloads .top-border {
 	border-top-style: groove;
 	border-top-width: 1px;
@@ -445,7 +452,7 @@ canvas {
 }
 
 #contact .container p {
-	margin-top: 0.5rem;
+	margin-top: 2rem;
 }
 
 #contact .contact-tooltip {
