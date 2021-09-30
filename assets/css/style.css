@@ -148,6 +148,9 @@ main {
 	margin-bottom: 10rem;
 }
 
+#home h1 {
+	letter-spacing: 0.04rem;
+}
 
 
 /*
@@ -330,6 +333,55 @@ canvas {
 	padding-top: 100%;
 }
 
+/*
+ * Sounds
+*/
+
+#sounds main {
+	text-align: left;
+ }
+ 
+ #sounds main h1 {
+	border-bottom: 1px;
+	border-bottom-style: groove;
+	padding-bottom: 1rem;
+ }
+ 
+ #sounds main h2 {
+	/*text-decoration: underline; */
+ }
+
+ #sounds main h3 {
+ font-size: 1.5rem;
+
+}
+ 
+ #sounds main a {
+	text-decoration: underline !important;
+ }
+ 
+ #sounds .container {
+	padding: 0;
+ }
+ 
+ #sounds .top-border {
+	border-top-style: groove;
+	border-top-width: 1px;
+	padding-bottom: 1rem;
+
+ }
+ 
+ #sounds .container p {
+	margin-top: 2rem;
+ }
+ 
+
+ #sounds .sc-playlist {
+	max-width: 70%;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+ }
+
 
 /*
  * Downloads
@@ -349,8 +401,16 @@ canvas {
 	/*text-decoration: underline; */
 }
 
+#downloads main a {
+	text-decoration: underline !important;
+}
+
 #downloads .container {
 	padding: 0;
+}
+
+#downloads .mt-3 {
+	margin-top: 2rem!important;
 }
 
 #downloads .top-border {
@@ -392,7 +452,7 @@ canvas {
 }
 
 #contact .container p {
-	margin-top: 0.5rem;
+	margin-top: 2rem;
 }
 
 #contact .contact-tooltip {
