@@ -505,6 +505,8 @@ canvas {
 footer {
 	display: flex;
     flex-direction: column;
+    margin: 1rem;
+    margin-top: 1rem !important;
 }
 
 footer p {
