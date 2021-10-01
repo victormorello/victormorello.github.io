@@ -502,6 +502,10 @@ canvas {
 /*
  * Footer
 */
+footer {
+	display: flex;
+    flex-direction: column;
+}
 
 footer p {
 	font-size: 0.9rem !important;
