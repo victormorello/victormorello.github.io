@@ -41,6 +41,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
+	overflow-x: hidden;
 }
 
 html {
@@ -67,7 +68,7 @@ a {
 }
 
 
-/*p
+/*
  * Header
 */
 
@@ -502,6 +503,14 @@ canvas {
 /*
  * Footer
 */
+footer {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+    height: auto;
+	position: relative;
+    bottom: 0;
+}
 
 footer p {
 	font-size: 0.9rem !important;
@@ -580,10 +589,14 @@ footer .copyright-link {
 		margin-top: 2rem;
 	}
 	#home footer {
-		margin-top: 1.5rem!important;
+		margin-top: 2rem!important;
 	}
 }
 
+/* iPhone SE 2016 */
+@media only screen and (width: 320px) and (height: 568px) {
+	
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
