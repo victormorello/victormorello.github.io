@@ -383,10 +383,18 @@ canvas {
  
 
  #sounds .sc-playlist {
-	max-width: 70%;
+	max-width: 85%;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
  }
+
+ @media (min-width: 992px){
+	#sounds .col-md-3 {
+		flex: 0 0 auto !important;
+		width: 33% !important;
+ }
+}
+
 
 
 /*
