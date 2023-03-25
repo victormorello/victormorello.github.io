@@ -7,9 +7,10 @@ let dx; // Value for incrementing x
 let yvalues; // Using an array to store height values for the wave
 let dotSize = 3;
 let maxHeight = 200;
-const charArray = ["I","⥜","⥠","⥔","⟷","⥐","⟷","⥊"];
+const charArray = ["→","↘︎","↓","↙︎","←","↖︎","↑","↗︎"];
+/*const charArray = ["I","⥜","⥠","⥔","⟷","⥐","⟷","⥊"];*/
 let currentChar = 0;
-let intervalID;
+let intervalID;  // This was for changing characters automatically
 
 
 
@@ -26,7 +27,7 @@ function setup() {
   dx = (TWO_PI / period) * xspacing;
   yvalues = new Array(floor(w / xspacing));
   setChar();
-  updateInterval(); // Call the updateInterval function once at the beginning
+  updateInterval(); // Call the updateInterval function once at the beginning 
   
 }
 
@@ -34,6 +35,7 @@ function draw() {
   background(248,249,250);
   clear();
   calcWave();
+
   renderWave();
 }
 
@@ -46,7 +48,10 @@ function calcWave() {
 
   if(mouseIsPressed) {
     theta +=0.12;
+    
   }
+
+  
   
   // For every x value, calculate a y value with sine function
   let x = theta;
@@ -56,7 +61,6 @@ function calcWave() {
   }
   
 }
-
 
 
 
@@ -70,16 +74,23 @@ function renderWave() {
   }
 }
 
+
 function setChar(){
-  currentChar = Math.floor(Math.random() * charArray.length);
+  /*if(currentChar < charArray.length-1) {
+    currentChar++;
+  }  else{
+    currentChar = 0;
+  } */
+
+  currentChar = Math.floor(Math.random() * charArray.length); 
   console.log("Current Char:",currentChar);
   updateInterval();
 }
 
 function updateInterval() {
-  let intervalTime = random(0.2, 1) * 1000; // Generate a random interval between 0.5 and 2 seconds
+  let intervalTime = random(0.2, 0.6) * 1000; // Generate a random interval 
   clearInterval(intervalID); // Clear the previous interval
   intervalID = setInterval(setChar, intervalTime); // Set the new interval
   console.log("Interval updated to:", intervalTime);
-}
+} 
 
