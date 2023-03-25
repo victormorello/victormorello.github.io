@@ -101,6 +101,7 @@ header {
   justify-content: left; */
 	display: inline-block;
 	text-align: center;
+	user-select: none;
 }
 
 .nav-title a {
@@ -259,11 +260,16 @@ canvas {
 
 #projects .card .card-body {
 	padding-left: 0;
+	padding: 0.5rem 0rem !important;
+
 }
 
 #projects .card h3 {
 	font-size: 1rem;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	border-bottom: 1px;
+	border-bottom-style: groove;
+	padding-bottom: 0.5rem;
 }
 
 #projects .card img {
@@ -295,7 +301,7 @@ canvas {
 }
 
 #projects .project-start {
-	margin-top: 3rem !important;
+	margin-top: 2rem !important;
 }
 
 #projects .project-image {
