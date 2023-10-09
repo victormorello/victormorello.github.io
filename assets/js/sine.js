@@ -15,6 +15,7 @@ let intervalID;  // This was for changing characters automatically
 
 
 function setup() {
+  period = random([150], [250]);
   if (windowWidth < 600) {
     maxHeight = 100;
     period = 250.0;
