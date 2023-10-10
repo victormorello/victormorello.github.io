@@ -1,12 +1,12 @@
 let xspacing = 15; // Distance between each horizontal location
 let w; // Width of entire wave
 let theta = 0.0; // Start angle at 0
-let amplitude = 75.0; // Height of wave
+let amplitude = 120.0; // Height of wave
 let period = 1000; // How many pixels before the wave repeats
 let dx; // Value for incrementing x
 let yvalues; // Using an array to store height values for the wave
 let dotSize = 3;
-let maxHeight = 200;
+let maxHeight = 300;
 const charArray = ["→","↘︎","↓","↙︎","←","↖︎","↑","↗︎"];
 /*const charArray = ["I","⥜","⥠","⥔","⟷","⥐","⟷","⥊"];*/
 let currentChar = 0;
@@ -15,11 +15,11 @@ let intervalID;  // This was for changing characters automatically
 
 
 function setup() {
-  period = random([150], [250]);
+  period = random([period*0.7], [period*1.3]);
   if (windowWidth < 600) {
-    maxHeight = 100;
-    period = 250.0;
-    amplitude = 40.0;
+    maxHeight = 300;
+    amplitude = 120.0;
+    
   }
 
   let canvas = createCanvas(windowWidth, maxHeight);
@@ -36,7 +36,6 @@ function draw() {
   background(248,249,250);
   clear();
   calcWave();
-
   renderWave();
 }
 
@@ -82,7 +81,7 @@ function setChar(){
   }  else{
     currentChar = 0;
   } */
-
+  
   currentChar = Math.floor(Math.random() * charArray.length); 
   console.log("Current Char:",currentChar);
   updateInterval();
