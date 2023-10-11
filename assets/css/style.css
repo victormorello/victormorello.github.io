@@ -78,6 +78,10 @@ a {
     max-width: 48rem;
 }
 
+img {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
 /*
  * Header
@@ -414,9 +418,9 @@ canvas {
  }
  
 
- #sounds .sc-playlist {
+ #sounds .audio-player {
 	max-width: 85%;
-	margin-top: 1rem;
+	margin-top: 2rem;
 	margin-bottom: 2rem;
  }
 
