@@ -417,6 +417,12 @@ canvas {
 	margin-top: 2rem;
  }
  
+ #sounds .card {
+	border: none !important;
+	background-color: transparent !important;
+	max-width: 60%;
+
+ }
 
  #sounds .audio-player {
 	max-width: 85%;
