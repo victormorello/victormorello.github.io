@@ -386,6 +386,7 @@ canvas {
  
  #sounds main h2 {
 	/*text-decoration: underline; */
+	margin-top: 2rem;
  }
 
  #sounds main h3 {
@@ -405,16 +406,16 @@ canvas {
 	border-top-style: groove;
 	border-top-width: 1px;
 	padding-bottom: 1rem;
-	max-width: 50%;
+	max-width: 100%;
 
  }
  
  #sounds .container p {
-	margin-top: 2rem;
+	margin-top: 1rem;
  }
  
  #sounds .sounds-content {
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
  }
  
  #sounds .card {
